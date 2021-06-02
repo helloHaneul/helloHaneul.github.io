@@ -202,4 +202,10 @@ var store = [{
         "tags": [],
         "url": "/linux/ipc-socket/",
         "teaser": null
+      },{
+        "title": "React 관련 개념들",
+        "excerpt":"웹개발 토이프로젝트를 시작하면서 React를 배워봐야겠다는 생각으로 React를 사용해보기로 결정했다. 어디부터 공부를 해야할지 막막하긴했지만 워낙 좋은 콘텐츠들이야 많으니 프로젝트를 해보면서 익혀봐야겠다. 우선 아래는 이것저것 보면서 기억해놓고 싶은 React와 관련된 개념들이다. 아직은 매우 어수선하지만 하다보면 내 것으로 만들 수 있겠지! 시작이 반이다 호홓 React? full features framework이 아니라 library 형태에 가까워서 필요한...","categories": ["React"],
+        "tags": [],
+        "url": "/react/react/",
+        "teaser": null
       }]

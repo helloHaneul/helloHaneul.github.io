@@ -1,4 +1,36 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-05-11T13:19:33+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Haneul’s Record</title><subtitle>An amazing website.</subtitle><author><name>Haneul Kim</name></author><entry><title type="html">IPC Socket</title><link href="http://localhost:4000/linux/ipc-socket/" rel="alternate" type="text/html" title="IPC Socket" /><published>2021-05-06T00:00:00+09:00</published><updated>2021-05-06T00:00:00+09:00</updated><id>http://localhost:4000/linux/ipc-socket</id><content type="html" xml:base="http://localhost:4000/linux/ipc-socket/">&lt;h1 class=&quot;no_toc&quot; id=&quot;ipc&quot;&gt;IPC&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-06-02T13:49:50+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Haneul’s Record</title><subtitle>An amazing website.</subtitle><author><name>Haneul Kim</name></author><entry><title type="html">React 관련 개념들</title><link href="http://localhost:4000/react/react/" rel="alternate" type="text/html" title="React 관련 개념들" /><published>2021-05-26T00:00:00+09:00</published><updated>2021-05-26T00:00:00+09:00</updated><id>http://localhost:4000/react/react</id><content type="html" xml:base="http://localhost:4000/react/react/">&lt;p&gt;웹개발 토이프로젝트를 시작하면서 React를 배워봐야겠다는 생각으로 React를 사용해보기로 결정했다.
+어디부터 공부를 해야할지 막막하긴했지만 워낙 좋은 콘텐츠들이야 많으니 프로젝트를 해보면서 익혀봐야겠다. 우선 아래는 이것저것 보면서 기억해놓고 싶은 React와 관련된 개념들이다. 아직은 매우 어수선하지만 하다보면 내 것으로 만들 수 있겠지! 시작이 반이다 호홓&lt;/p&gt;
+
+&lt;h1 id=&quot;react&quot;&gt;React?&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;full features framework이 아니라 library 형태에 가까워서 필요한 기능에 따라 여러 모듈을 찾아서 적용해야하는 장점이자 단점이 존재한다.
+즉, SPA에 필요한 기능들인 ajax, template, 비동기 처리, history 관리(route), state 관리(redux) 관련 모듈을 적용해야한다.&lt;/li&gt;
+  &lt;li&gt;component 단위의 개발을 통해 효율성을 가진다.&lt;/li&gt;
+  &lt;li&gt;virtual DOM을 통해 DOM 조작을 효율적으로 한다. React Component 객체와 Virtual DOM을 비교하여 변경이 일어난 부분만 수정하려고 노력한다.&lt;/li&gt;
+  &lt;li&gt;React는 JSX(React에서 사용하는 표준 html template 문법)로 표현만 해두면 DOM API를 직접 사용하지 않고 DOM에 변경할 수 있다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;spa-single-page-application&quot;&gt;SPA (Single Page Application)&lt;/h3&gt;
+&lt;p&gt;API Server와 분리하여 클라이언트에서 Ajax와 template 작업을 통해 한 페이지내에서 모든 동작이 이루어지는 웹기반 어플리케이션&lt;/p&gt;
+
+&lt;h2 id=&quot;lets-react&quot;&gt;Let’s React!&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;component&lt;/li&gt;
+  &lt;li&gt;props, state&lt;/li&gt;
+  &lt;li&gt;event&lt;/li&gt;
+  &lt;li&gt;shouldComponentUpdate&lt;/li&gt;
+  &lt;li&gt;how to deploy&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;react-구현시-필요한-요소&quot;&gt;React 구현시 필요한 요소&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;immutable: immutable.js&lt;/li&gt;
+  &lt;li&gt;router: SPA 환경에서 url에 따라 적당한 component가 실행될 수 있도록 할 수 있음; UX적인 측면&lt;/li&gt;
+  &lt;li&gt;redux: component를 중앙에서 관리해주는 개체를 통해 UI가 렌더링 되는 기술&lt;/li&gt;
+  &lt;li&gt;react server side rendering: SEO 최적화&lt;/li&gt;
+  &lt;li&gt;react hooks&lt;/li&gt;
+  &lt;li&gt;react native: mobile&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Haneul Kim</name></author><category term="React" /><summary type="html">웹개발 토이프로젝트를 시작하면서 React를 배워봐야겠다는 생각으로 React를 사용해보기로 결정했다. 어디부터 공부를 해야할지 막막하긴했지만 워낙 좋은 콘텐츠들이야 많으니 프로젝트를 해보면서 익혀봐야겠다. 우선 아래는 이것저것 보면서 기억해놓고 싶은 React와 관련된 개념들이다. 아직은 매우 어수선하지만 하다보면 내 것으로 만들 수 있겠지! 시작이 반이다 호홓</summary></entry><entry><title type="html">IPC Socket</title><link href="http://localhost:4000/linux/ipc-socket/" rel="alternate" type="text/html" title="IPC Socket" /><published>2021-05-06T00:00:00+09:00</published><updated>2021-05-06T00:00:00+09:00</updated><id>http://localhost:4000/linux/ipc-socket</id><content type="html" xml:base="http://localhost:4000/linux/ipc-socket/">&lt;h1 class=&quot;no_toc&quot; id=&quot;ipc&quot;&gt;IPC&lt;/h1&gt;
 
 &lt;p&gt;IPC(Inter-Process Communication)는 이름 그대로 프로세스 사이에 서로 데이터를 주고 받을 수 있는 통신 매커니즘이다.
 IPC 방식에는 named pipe, message queue, shared memory, memory map, socket, semaphore와 같이 여러 방식이 존재한다.
@@ -1038,68 +1070,7 @@ endpoint 간의 메세지 교환에 있어서 TCP 바인딩 구성은 HTTP 바�
 &lt;a href=&quot;http://www.simpleisbest.net/articles/1731.aspx&quot;&gt;http://www.simpleisbest.net/articles/1731.aspx&lt;/a&gt;
 &lt;a href=&quot;https://www.shblitz.net/1036&quot;&gt;https://www.shblitz.net/1036&lt;/a&gt;
 &lt;a href=&quot;https://www.codeproject.com/Articles/188749/WCF-Sessions-Brief-Introduction&quot;&gt;https://www.codeproject.com/Articles/188749/WCF-Sessions-Brief-Introduction&lt;/a&gt;
-&lt;a href=&quot;https://www.sysnet.pe.kr/2/0/535&quot;&gt;https://www.sysnet.pe.kr/2/0/535&lt;/a&gt;&lt;/p&gt;</content><author><name>Haneul Kim</name></author><category term="WCF" /><summary type="html">NetTcpBinding</summary></entry><entry><title type="html">WCF 서비스 로그</title><link href="http://localhost:4000/wcf/wcf-servicelog/" rel="alternate" type="text/html" title="WCF 서비스 로그" /><published>2021-04-20T00:00:00+09:00</published><updated>2021-04-20T00:00:00+09:00</updated><id>http://localhost:4000/wcf/wcf-servicelog</id><content type="html" xml:base="http://localhost:4000/wcf/wcf-servicelog/">&lt;h1 class=&quot;no_toc&quot; id=&quot;wcf-서비스-로그-남기기&quot;&gt;WCF 서비스 로그 남기기&lt;/h1&gt;
-
-&lt;p&gt;WCF 서비스 동작중에 발생하는 오류의 원인 분석을 위한 로그옵션은 기본적으로는 꺼져있는 상태이다.
-Web.config 파일에서 직접 설정을 입력해도 되고 아래와 같이 구성 편집기를 활용하면 config 파일에 관련내용이 자동으로 입력된다.&lt;/p&gt;
-
-&lt;p&gt;우선 config 파일에서 우클릭을 하면 아래와 같이 구성 편집기를 실행할 수 있다.
-&lt;img src=&quot;https://helloHaneul.github.io/image/wcf/config.png&quot; alt=&quot;config editor&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;‘진단’탭에서 메시지 로깅과 추적 옵션을 설정한다.
-&lt;img src=&quot;https://helloHaneul.github.io/image/wcf/config_log1.png&quot; alt=&quot;config editor&quot; /&gt;
-&lt;img src=&quot;https://helloHaneul.github.io/image/wcf/config_log2.png&quot; alt=&quot;config editor&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;생성된 Listener를 클릭하면 로그파일 경로 및 로그로 입력할 데이터를 수정할 수 있다.
-&lt;img src=&quot;https://helloHaneul.github.io/image/wcf/config_log3.png&quot; alt=&quot;config editor&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;편집기의 내용을 저장하면 아래의 내용이 config에 자동으로 추가입력된다.&lt;/p&gt;
-
-&lt;div class=&quot;language-xml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;system.diagnostics&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;sources&amp;gt;&lt;/span&gt;
-        &lt;span class=&quot;nt&quot;&gt;&amp;lt;source&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;System.ServiceModel.MessageLogging&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;switchValue=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;경고,ActivityTracing&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-        &lt;span class=&quot;nt&quot;&gt;&amp;lt;listeners&amp;gt;&lt;/span&gt;
-            &lt;span class=&quot;nt&quot;&gt;&amp;lt;add&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;System.Diagnostics.DefaultTraceListener&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Default&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-            &lt;span class=&quot;nt&quot;&gt;&amp;lt;filter&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;
-            &lt;span class=&quot;nt&quot;&gt;&amp;lt;/add&amp;gt;&lt;/span&gt;
-            &lt;span class=&quot;nt&quot;&gt;&amp;lt;add&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;ServiceModelMessageLoggingListener&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-            &lt;span class=&quot;nt&quot;&gt;&amp;lt;filter&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;
-            &lt;span class=&quot;nt&quot;&gt;&amp;lt;/add&amp;gt;&lt;/span&gt;
-        &lt;span class=&quot;nt&quot;&gt;&amp;lt;/listeners&amp;gt;&lt;/span&gt;
-        &lt;span class=&quot;nt&quot;&gt;&amp;lt;/source&amp;gt;&lt;/span&gt;
-        &lt;span class=&quot;nt&quot;&gt;&amp;lt;source&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;propagateActivity=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;true&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;System.ServiceModel&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;switchValue=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;경고,ActivityTracing&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-        &lt;span class=&quot;nt&quot;&gt;&amp;lt;listeners&amp;gt;&lt;/span&gt;
-            &lt;span class=&quot;nt&quot;&gt;&amp;lt;add&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;System.Diagnostics.DefaultTraceListener&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Default&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-            &lt;span class=&quot;nt&quot;&gt;&amp;lt;filter&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;
-            &lt;span class=&quot;nt&quot;&gt;&amp;lt;/add&amp;gt;&lt;/span&gt;
-            &lt;span class=&quot;nt&quot;&gt;&amp;lt;add&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;ServiceModelTraceListener&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-            &lt;span class=&quot;nt&quot;&gt;&amp;lt;filter&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;
-            &lt;span class=&quot;nt&quot;&gt;&amp;lt;/add&amp;gt;&lt;/span&gt;
-        &lt;span class=&quot;nt&quot;&gt;&amp;lt;/listeners&amp;gt;&lt;/span&gt;
-        &lt;span class=&quot;nt&quot;&gt;&amp;lt;/source&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;/sources&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;sharedListeners&amp;gt;&lt;/span&gt;
-        &lt;span class=&quot;nt&quot;&gt;&amp;lt;add&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;initializeData=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;c:\workspace\wcfservice1\wcfservice1\web_messages.svclog&quot;&lt;/span&gt;
-        &lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;System.Diagnostics.XmlWriterTraceListener, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&quot;&lt;/span&gt;
-        &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;ServiceModelMessageLoggingListener&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;traceOutputOptions=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Timestamp&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-        &lt;span class=&quot;nt&quot;&gt;&amp;lt;filter&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;
-        &lt;span class=&quot;nt&quot;&gt;&amp;lt;/add&amp;gt;&lt;/span&gt;
-        &lt;span class=&quot;nt&quot;&gt;&amp;lt;add&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;initializeData=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;c:\workspace\wcfservice1\wcfservice1\web_tracelog.svclog&quot;&lt;/span&gt;
-        &lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;System.Diagnostics.XmlWriterTraceListener, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&quot;&lt;/span&gt;
-        &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;ServiceModelTraceListener&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;traceOutputOptions=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Timestamp&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-        &lt;span class=&quot;nt&quot;&gt;&amp;lt;filter&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;
-        &lt;span class=&quot;nt&quot;&gt;&amp;lt;/add&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;/sharedListeners&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/system.diagnostics&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;서비스가 호스팅되기 시작하면 지정한 폴더에 .svclog 파일이 생성되고, Microsoft Service Trace Viewer(&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;SvcTraceViewer.exe&lt;/code&gt;)를 사용하여 해당 로그 파일을 분석할 수 있다.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://helloHaneul.github.io/image/wcf/webtracelog.png&quot; alt=&quot;service trace viewer&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;참고&quot;&gt;[참고]&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&quot;https://docs.microsoft.com/ko-kr/dotnet/framework/wcf/diagnostics/tracing/configuring-tracing&quot;&gt;https://docs.microsoft.com/ko-kr/dotnet/framework/wcf/diagnostics/tracing/configuring-tracing&lt;/a&gt;
-&lt;a href=&quot;https://www.codeproject.com/Articles/420538/Simple-Steps-to-Enable-Tracing-in-WCF&quot;&gt;https://www.codeproject.com/Articles/420538/Simple-Steps-to-Enable-Tracing-in-WCF&lt;/a&gt;&lt;/p&gt;</content><author><name>Haneul Kim</name></author><category term="WCF" /><summary type="html">WCF 서비스 로그 남기기</summary></entry><entry><title type="html">Binding</title><link href="http://localhost:4000/wcf/binding/" rel="alternate" type="text/html" title="Binding" /><published>2021-04-20T00:00:00+09:00</published><updated>2021-04-20T00:00:00+09:00</updated><id>http://localhost:4000/wcf/binding</id><content type="html" xml:base="http://localhost:4000/wcf/binding/">&lt;h2 class=&quot;no_toc&quot; id=&quot;binding-&quot;&gt;Binding ?&lt;/h2&gt;
+&lt;a href=&quot;https://www.sysnet.pe.kr/2/0/535&quot;&gt;https://www.sysnet.pe.kr/2/0/535&lt;/a&gt;&lt;/p&gt;</content><author><name>Haneul Kim</name></author><category term="WCF" /><summary type="html">NetTcpBinding</summary></entry><entry><title type="html">Binding</title><link href="http://localhost:4000/wcf/binding/" rel="alternate" type="text/html" title="Binding" /><published>2021-04-20T00:00:00+09:00</published><updated>2021-04-20T00:00:00+09:00</updated><id>http://localhost:4000/wcf/binding</id><content type="html" xml:base="http://localhost:4000/wcf/binding/">&lt;h2 class=&quot;no_toc&quot; id=&quot;binding-&quot;&gt;Binding ?&lt;/h2&gt;
 
 &lt;p&gt;바인딩은 WCF 서비스의 Endpoint 연결에 필요한 통신 세부 정보(프로토콜, 인코딩 방식 등)를 지정하는데 사용되는 개체이다.
 바인딩에 들어가는 정보는 매우 복잡할 수 있고 일부 설정이 다른 설정과 호환되지 않을 수 있기에 WCF에서 제공하는 시스템 제공 바인딩을 사용하는 것이 쉬운 방법이다.
