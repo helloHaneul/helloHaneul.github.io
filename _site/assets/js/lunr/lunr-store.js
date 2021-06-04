@@ -204,8 +204,26 @@ var store = [{
         "teaser": null
       },{
         "title": "React 관련 개념들",
-        "excerpt":"웹개발 토이프로젝트를 시작하면서 React를 배워봐야겠다는 생각으로 React를 사용해보기로 결정했다. 어디부터 공부를 해야할지 막막하긴했지만 워낙 좋은 콘텐츠들이야 많으니 프로젝트를 해보면서 익혀봐야겠다. 우선 아래는 이것저것 보면서 기억해놓고 싶은 React와 관련된 개념들이다. 아직은 매우 어수선하지만 하다보면 내 것으로 만들 수 있겠지! 시작이 반이다 호홓 React? full features framework이 아니라 library 형태에 가까워서 필요한...","categories": ["React"],
+        "excerpt":"웹개발 토이프로젝트를 시작하면서 React를 배워봐야겠다는 생각으로 React를 사용해보기로 결정했다.(무식하면 용감하다!) 어디부터 공부를 해야할지 막막하긴했지만 워낙 좋은 콘텐츠들이야 많으니 프로젝트를 해보면서 익혀봐야겠다. 우선 아래는 이것저것 보면서 기억해놓고 싶은 React와 관련된 개념들이다. 아직은 매우 어수선하지만 하다보면 내 것으로 만들 수 있겠지~ 시작이 반이다 호홓^^ React? full features framework이 아니라 library 형태에 가까워서...","categories": ["React"],
         "tags": [],
         "url": "/react/react/",
+        "teaser": null
+      },{
+        "title": "Javascript 시작",
+        "excerpt":"React 강좌들으면서 토이프로젝트의 화면을 구성해보았다. 일단 해보니까 확실히 내가 엄청 부족하구나를 더 느낄 수 있었다 하하하ㅏㅏ;;; 너무 거슬러 올라갔나 싶지만 그래도 Javascript 언어 자체에 대해서 돌아보는 시간을 가졌다. 그동안 ES6에 익숙한 개발자 도대체 무슨말인가 싶었는데 ES6는 ECMAScript 2015을 의미하는것이고 ECMAScript가 바로 javascript…. 결국은 해당 버전의 Javascript API를 사용해본 경험이 있는지를...","categories": ["Javascript"],
+        "tags": [],
+        "url": "/javascript/javascript/",
+        "teaser": null
+      },{
+        "title": "Javascript에서 정규표현식",
+        "excerpt":"우선 정규표현식 객체를 만들고 이렇게.. var pattern = /a/ 혹은 이렇게… var pattern = new RegExp('a'); 객체에서 패턴을 추출하고 console.log(pattern.exec('abcdef')); // [\"a\"] 객체에서 패턴에 해당되는 문자열이 있는지 확인할 수 있다. console.log(pattern.test('abcdef')); // true 정규표현식 옵션 i 옵션 i를 붙이면 대소문자를 구분하지 않는다. var xi = /a/; console.log(\"Abcde\".match(xi)); // null var...","categories": ["Javascript"],
+        "tags": [],
+        "url": "/javascript/js-regexp/",
+        "teaser": null
+      },{
+        "title": "함수형 언어",
+        "excerpt":"함수형 언어, Javascript 1. 변수의 유효범위 전역변수 사용을 지양해야하는 것은 다른 언어에서도 강조되는 부분인데 자바스크립트에서도 물론 필요한 내용이다. 불가피하게 전역변수를 사용해야할 때는 아래와 같이 하나의 객체를 전역변수로 만들고 객체의 속성으로 변수를 관리하는 방법을 사용하는 것이 좋다. MYAPP = {} MYAPP.calculator = { 'left' : null, 'right' : null } MYAPP.coordinate...","categories": ["Javascript"],
+        "tags": [],
+        "url": "/javascript/js-function/",
         "teaser": null
       }]
