@@ -1,7 +1,7 @@
 ---
 published: true
 layout: single
-title: "Javascript"
+title: "Javascript 시작"
 category: Javascript
 tags:
 comments: true
