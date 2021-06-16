@@ -222,8 +222,20 @@ var store = [{
         "teaser": null
       },{
         "title": "함수형 언어",
-        "excerpt":"함수형 언어, Javascript 1. 변수의 유효범위 전역변수 사용을 지양해야하는 것은 다른 언어에서도 강조되는 부분인데 자바스크립트에서도 물론 필요한 내용이다. 불가피하게 전역변수를 사용해야할 때는 아래와 같이 하나의 객체를 전역변수로 만들고 객체의 속성으로 변수를 관리하는 방법을 사용하는 것이 좋다. MYAPP = {} MYAPP.calculator = { 'left' : null, 'right' : null } MYAPP.coordinate...","categories": ["Javascript"],
+        "excerpt":"함수형 언어, Javascript 자바스크립트에서의 함수는 그냥 함수로 끝나는 것이 아니라 객체로도 사용이 된다. 이에 함수는 마치 다른 언어의 클래스처럼 property를 가질 수도 있고 함수를 이용해 객체를 생성하여 할당할 수도 있다. 1. 변수의 유효범위 전역변수 사용을 지양해야하는 것은 다른 언어에서도 강조되는 부분인데 자바스크립트에서도 물론 필요한 내용이다. 불가피하게 전역변수를 사용해야할 때는 아래와...","categories": ["Javascript"],
         "tags": [],
         "url": "/javascript/js-function/",
+        "teaser": null
+      },{
+        "title": "OOP Javascript",
+        "excerpt":"객체 지향 프로그래밍, Javascript 기존의 Java, C++과 같은 클래스 기반의 객체지향 언어에서는 앞으로 생성할 객체의 기능과 구조는 선언된 클래스에서 결정이 되지만 자바스크립트에서는 객체 자체(super object;prototype object)로부터 상속을 받아 새로운 객체(sub object)를 생성하게 된다. 이러한 차이점들을 통해 javascript만의 특징을 알아본다. 생성자 함수 function Person(name){ this.name = name; } Person.prototype.introduce = function(){...","categories": ["Javascript"],
+        "tags": [],
+        "url": "/javascript/js-oop/",
+        "teaser": null
+      },{
+        "title": "BOM / DOM",
+        "excerpt":"웹브라우저에서의 자바스크립트 React와 같은 프레임워크를 통해 프론트와 백엔드를 온전히 분리하여 개발을 하는 경우에는 오히려 순수한 자바스크립트를 사용하여 프론트엔드 작업을 진행하는 능력이 필요하다고 한다. 순수한 자바스크립트, 바닐라 JS를 능숙하게 다루기 위해서는 우선 DOM에 대한 이해가 필요했다. BOM 우선 BOM(Browser Object Model)은 웹페이지의 내용을 제외한 브라우저의 각종 요소들을 객체화시킨 것이다. 전역객체 window의...","categories": ["Javascript"],
+        "tags": [],
+        "url": "/javascript/js-object-model/",
         "teaser": null
       }]
